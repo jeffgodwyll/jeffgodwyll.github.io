@@ -1,0 +1,48 @@
+html{
+	width: 100%;
+	text-align: center;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-family: 'Exo 2', sans-serif;
+	font-size: 20px;
+	display: inline-block;
+	text-align: center;
+	background-color: #4285f4;
+	color: white;
+	padding: 9px;
+}
+h1{
+	font-size: 50px;
+}
+h2{
+	font-size: 40px;
+}
+a{
+	color: white;
+	background: black;
+	padding: 1px 3px 3px;
+	text-decoration: none;
+	line-height: 35px
+}
+
+a:active, a:hover {
+outline: 0;
+}
+
+hr{
+    border: 0;
+    height: 1px;
+    background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(219, 205, 205, 0.75), rgba(0,0,0,0)); 
+    background-image:    -moz-linear-gradient(left, rgba(0,0,0,0), rgba(219, 205, 205, 0.75), rgba(0,0,0,0)); 
+    background-image:     -ms-linear-gradient(left, rgba(0,0,0,0), rgba(219, 205, 205, 0.75), rgba(0,0,0,0)); 
+    background-image:      -o-linear-gradient(left, rgba(0,0,0,0), rgba(219, 205, 205, 0.75), rgba(0,0,0,0)); 
+}
+.footer{
+    left: 0;
+    bottom: 0;
+    font-size: 12px;
+    height: 15px;
+    width: 100%;
+}
